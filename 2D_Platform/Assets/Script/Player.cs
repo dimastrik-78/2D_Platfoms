@@ -7,16 +7,39 @@ public class Player : MonoBehaviour
 {
     public int Heal;
     public float MoveSpeed, JumpPower;
-    private float MoveX;
+    public float BogMode = 0;
+
+    private float Speed;
     private bool Grounded;
     private Rigidbody2D rb;
+    private SpriteRenderer sprite;
+    private Transform AttackZone;
+    private float AttackZoneX;
+    private Animator Anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        //sprite = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        Anim = transform.GetChild(0).GetComponent<Animator>();
     }
     void Update()
     {
-        MoveX = Input.GetAxis("Horizontal") * MoveSpeed;
+        if (BogMode > 0)
+            BogMode--;
+
+        //if (rb.velocity.x > 0)
+        //{
+        //    sprite.flipX = false;
+        //    //AttackZone.localPosition = new Vector2(AttackZoneX, AttackZone.localPosition.y);
+        //}
+        //else if (rb.velocity.x < 0)
+        //{
+        //    //sprite.flipX = true;
+        //    //AttackZone.localPosition = new Vector2(-AttackZoneX, AttackZone.localPosition.y);
+        //}
+
+        Speed = Input.GetAxis("Horizontal") * MoveSpeed;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (Grounded == true)
@@ -25,7 +48,7 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(MoveX, rb.velocity.y);
+        rb.velocity = new Vector2(Speed, rb.velocity.y);
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

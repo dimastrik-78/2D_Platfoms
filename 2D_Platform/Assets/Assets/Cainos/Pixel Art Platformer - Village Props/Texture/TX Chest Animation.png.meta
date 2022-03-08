@@ -4,88 +4,88 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1309413244939661745
-    second: TX Chest Animation Wooden 0
+    second: TX Chest Animation_0
   - first:
       213: 2628861295414256057
-    second: TX Chest Animation Wooden 1
+    second: TX Chest Animation_1
   - first:
       213: 7729124679938002231
-    second: TX Chest Animation Wooden 2
+    second: TX Chest Animation_2
   - first:
       213: 6231711225017064468
-    second: TX Chest Animation Wooden 3
+    second: TX Chest Animation_3
   - first:
       213: 2032627284715886908
-    second: TX Chest Animation Wooden 4
+    second: TX Chest Animation_4
   - first:
       213: 3186618823931839756
-    second: TX Chest Animation Wooden 5
+    second: TX Chest Animation_5
   - first:
       213: -1440598482483040155
-    second: TX Chest Animation Wooden 6
+    second: TX Chest Animation_6
   - first:
       213: 5233871863560122000
-    second: TX Chest Animation Iron 0
+    second: TX Chest Animation_7
   - first:
       213: 3278100515923679428
-    second: TX Chest Animation Iron 1
+    second: TX Chest Animation_8
   - first:
       213: 8206291628881865982
-    second: TX Chest Animation Iron 2
+    second: TX Chest Animation_9
   - first:
       213: -7401870491986572264
-    second: TX Chest Animation Iron 3
+    second: TX Chest Animation_10
   - first:
       213: -7148347082035780633
-    second: TX Chest Animation Iron 4
+    second: TX Chest Animation_11
   - first:
       213: -6398334591226318208
-    second: TX Chest Animation Iron 5
+    second: TX Chest Animation_12
   - first:
       213: 6756677616160534888
-    second: TX Chest Animation Iron 6
+    second: TX Chest Animation_13
   - first:
       213: 3849778927949640068
-    second: TX Chest Animation Silver 0
+    second: TX Chest Animation_14
   - first:
       213: 8901239322130806984
-    second: TX Chest Animation Silver 1
+    second: TX Chest Animation_15
   - first:
       213: 1052626010940248532
-    second: TX Chest Animation Silver 2
+    second: TX Chest Animation_16
   - first:
       213: 3119438749017079868
-    second: TX Chest Animation Silver 3
+    second: TX Chest Animation_17
   - first:
       213: 4918926099135234322
-    second: TX Chest Animation Silver 4
+    second: TX Chest Animation_18
   - first:
       213: -881816029012212927
-    second: TX Chest Animation Silver 5
+    second: TX Chest Animation_19
   - first:
       213: 5501649885831989918
-    second: TX Chest Animation Silver 6
+    second: TX Chest Animation_20
   - first:
       213: -6929924221510541977
-    second: TX Chest Animation Golden 0
+    second: TX Chest Animation_21
   - first:
       213: -8385124645873774784
-    second: TX Chest Animation Golden 1
+    second: TX Chest Animation_22
   - first:
       213: -2859092616773691244
-    second: TX Chest Animation Golden 2
+    second: TX Chest Animation_23
   - first:
       213: 2094815519824226833
-    second: TX Chest Animation Golden 3
+    second: TX Chest Animation_24
   - first:
       213: -2983415483628201805
-    second: TX Chest Animation Golden 4
+    second: TX Chest Animation_25
   - first:
       213: 1880024034202856855
-    second: TX Chest Animation Golden 5
+    second: TX Chest Animation_26
   - first:
       213: -3888567672798316567
-    second: TX Chest Animation Golden 6
+    second: TX Chest Animation_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -199,7 +199,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 0
+      name: TX Chest Animation_0
       rect:
         serializedVersion: 2
         x: 31
@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 1
+      name: TX Chest Animation_1
       rect:
         serializedVersion: 2
         x: 95
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 2
+      name: TX Chest Animation_2
       rect:
         serializedVersion: 2
         x: 159
@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 3
+      name: TX Chest Animation_3
       rect:
         serializedVersion: 2
         x: 223
@@ -283,7 +283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 4
+      name: TX Chest Animation_4
       rect:
         serializedVersion: 2
         x: 287
@@ -304,7 +304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 5
+      name: TX Chest Animation_5
       rect:
         serializedVersion: 2
         x: 351
@@ -325,7 +325,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Wooden 6
+      name: TX Chest Animation_6
       rect:
         serializedVersion: 2
         x: 415
@@ -346,7 +346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 0
+      name: TX Chest Animation_7
       rect:
         serializedVersion: 2
         x: 31
@@ -367,7 +367,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 1
+      name: TX Chest Animation_8
       rect:
         serializedVersion: 2
         x: 95
@@ -388,7 +388,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 2
+      name: TX Chest Animation_9
       rect:
         serializedVersion: 2
         x: 159
@@ -409,7 +409,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 3
+      name: TX Chest Animation_10
       rect:
         serializedVersion: 2
         x: 223
@@ -430,7 +430,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 4
+      name: TX Chest Animation_11
       rect:
         serializedVersion: 2
         x: 287
@@ -451,7 +451,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 5
+      name: TX Chest Animation_12
       rect:
         serializedVersion: 2
         x: 351
@@ -472,7 +472,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Iron 6
+      name: TX Chest Animation_13
       rect:
         serializedVersion: 2
         x: 415
@@ -493,7 +493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 0
+      name: TX Chest Animation_14
       rect:
         serializedVersion: 2
         x: 31
@@ -514,10 +514,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 1
+      name: TX Chest Animation_15
       rect:
         serializedVersion: 2
-        x: 96
+        x: 95
         y: 320
         width: 34
         height: 34
@@ -535,7 +535,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 2
+      name: TX Chest Animation_16
       rect:
         serializedVersion: 2
         x: 159
@@ -556,7 +556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 3
+      name: TX Chest Animation_17
       rect:
         serializedVersion: 2
         x: 223
@@ -577,7 +577,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 4
+      name: TX Chest Animation_18
       rect:
         serializedVersion: 2
         x: 287
@@ -598,7 +598,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 5
+      name: TX Chest Animation_19
       rect:
         serializedVersion: 2
         x: 351
@@ -619,7 +619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Silver 6
+      name: TX Chest Animation_20
       rect:
         serializedVersion: 2
         x: 415
@@ -640,7 +640,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 0
+      name: TX Chest Animation_21
       rect:
         serializedVersion: 2
         x: 31
@@ -661,7 +661,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 1
+      name: TX Chest Animation_22
       rect:
         serializedVersion: 2
         x: 95
@@ -682,7 +682,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 2
+      name: TX Chest Animation_23
       rect:
         serializedVersion: 2
         x: 159
@@ -703,7 +703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 3
+      name: TX Chest Animation_24
       rect:
         serializedVersion: 2
         x: 223
@@ -724,7 +724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 4
+      name: TX Chest Animation_25
       rect:
         serializedVersion: 2
         x: 287
@@ -745,7 +745,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 5
+      name: TX Chest Animation_26
       rect:
         serializedVersion: 2
         x: 351
@@ -766,7 +766,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Chest Animation Golden 6
+      name: TX Chest Animation_27
       rect:
         serializedVersion: 2
         x: 415
