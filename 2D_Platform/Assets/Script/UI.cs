@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class UI : MonoBehaviour
 {
     public Player Pl;
+    public Win WP;
     public Slider HealSlider;
     public GameObject GamePanel, PausePanel, WinPanel, LosePanel;
     void Start()
@@ -21,6 +22,12 @@ public class UI : MonoBehaviour
         {
             Time.timeScale = 0;
             LosePanel.SetActive(true);
+        }
+        if (WP.WinP == true)
+        {
+            Time.timeScale = 0;
+            WinPanel.SetActive(true);
+            GamePanel.SetActive(false);
         }
     }
     public void Pause()

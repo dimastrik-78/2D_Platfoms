@@ -7,6 +7,9 @@ TagManager:
   - Grounded
   - OpenBox
   - Damage
+  - water
+  - DEAD
+  - Bullet
   layers:
   - Default
   - TransparentFX
