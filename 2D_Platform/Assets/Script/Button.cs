@@ -17,5 +17,9 @@ public class Button : MonoBehaviour
     {
         if (collision.gameObject.tag == "OpenBox")
             Open.SetActive(true);
+        if (collision.gameObject.tag == "Player")
+        {
+
+        }
     }
 }

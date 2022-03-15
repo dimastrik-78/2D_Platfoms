@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public int Heal;
+    public int Heal = 10, coin = 0;
     public float MoveSpeed, JumpPower;
+    public bool ChestAnim = false;
 
     public GameObject FireBallPref;
     public Transform FireBallPoint;
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D RBFireBall;
     public float FireBallSpeed;
 
+    private bool attacks = false;
     private float BogMode = 0;
     private float Speed;
     private Rigidbody2D rb;
@@ -37,6 +39,8 @@ public class Player : MonoBehaviour
     {
         if (BogMode > 0)
             BogMode--;
+
+        Anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
 
         if (Heal > 0)
         {
@@ -64,7 +68,7 @@ public class Player : MonoBehaviour
                     rb.AddForce(Vector2.up * JumpPower, ForceMode2D.Impulse);
             }
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && attacks == true)
                 Shoot();
         }
     }
@@ -94,6 +98,11 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Damage")
             Heal--;
+        if (collision.CompareTag("Coin"))
+        {
+            coin++;
+            Destroy(collision.gameObject);
+        }
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -105,5 +114,10 @@ public class Player : MonoBehaviour
                 BogMode = 240;
             }
         }
+        if (collision.CompareTag("attack"))
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                attacks = true;
+            }
     }
 }

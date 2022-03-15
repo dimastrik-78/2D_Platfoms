@@ -10,6 +10,8 @@ TagManager:
   - water
   - DEAD
   - Bullet
+  - Coin
+  - attack
   layers:
   - Default
   - TransparentFX
