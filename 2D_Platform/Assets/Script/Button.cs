@@ -5,9 +5,11 @@ using UnityEngine;
 public class Button : MonoBehaviour
 {
     public GameObject Open;
+    public GameObject PrefDeath;
+
+    private float PointX;
     void Start()
     {
-        
     }
     void Update()
     {
@@ -19,7 +21,7 @@ public class Button : MonoBehaviour
             Open.SetActive(true);
         if (collision.gameObject.tag == "Player")
         {
-
+            PrefDeath.SetActive(true);
         }
     }
 }
