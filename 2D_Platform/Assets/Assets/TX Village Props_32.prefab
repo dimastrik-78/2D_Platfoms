@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5231297399300039552}
   - component: {fileID: 4863296819329590114}
   - component: {fileID: 2654276128035667499}
+  - component: {fileID: 7036221761607129242}
   m_Layer: 0
   m_Name: TX Village Props_32
   m_TagString: Grounded
@@ -131,3 +132,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7036221761607129242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795457329712046755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8264c0489a2598745b059d6bbf56a3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

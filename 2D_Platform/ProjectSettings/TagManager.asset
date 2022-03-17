@@ -12,6 +12,10 @@ TagManager:
   - Bullet
   - Coin
   - attack
+  - fin
+  - chest
+  - text1
+  - text2
   layers:
   - Default
   - TransparentFX

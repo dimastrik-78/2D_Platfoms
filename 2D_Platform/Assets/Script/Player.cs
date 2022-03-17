@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     public Rigidbody2D RBFireBall;
     public float FireBallSpeed;
 
+    public bool AttackText, text1, text2;
+
     private bool attacks = false;
     private float BogMode = 0;
     private float Speed;
@@ -98,11 +100,22 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Damage")
             Heal--;
+        if (collision.gameObject.tag == "DEAD")
+            Heal = 0;
         if (collision.CompareTag("Coin"))
         {
             coin++;
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.tag == "attack" && attacks == false)
+        {
+            AttackText = true;
+        }
+        if (collision.gameObject.tag == "text1" && attacks == false)
+            text1 = true;
+        if (collision.gameObject.tag == "text2")
+            text2 = true;
+
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -115,9 +128,20 @@ public class Player : MonoBehaviour
             }
         }
         if (collision.CompareTag("attack"))
+        {
             if (Input.GetKeyDown(KeyCode.E))
             {
                 attacks = true;
             }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "attack")
+            AttackText = false;
+        if (collision.gameObject.tag == "text1")
+            text1 = false;
+        if (collision.gameObject.tag == "text2")
+            text2 = false;
     }
 }

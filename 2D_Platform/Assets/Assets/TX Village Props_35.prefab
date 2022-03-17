@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1998414954610927046}
   - component: {fileID: 3897643780397062204}
   - component: {fileID: 3552349023117656650}
+  - component: {fileID: 3933415838151106398}
   m_Layer: 0
   m_Name: TX Village Props_35
   m_TagString: OpenBox
@@ -131,3 +132,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3933415838151106398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415815168605868133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8264c0489a2598745b059d6bbf56a3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
