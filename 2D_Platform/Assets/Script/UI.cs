@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UI : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class UI : MonoBehaviour
     public Head head;
     public Win WP;
     public Slider HealSlider, O2Slider;
-    public GameObject GamePanel, PausePanel, WinPanel, LosePanel, TextAttack, Text, Text2, O2Sliders;
+    public GameObject GamePanel, PausePanel, WinPanel, LosePanel, TextAttack, Text, Text2, O2Sliders, TextCoinOb;
+    public TextMeshProUGUI TextCoin;
     void Start()
     {
         Time.timeScale = 1;
@@ -19,6 +21,7 @@ public class UI : MonoBehaviour
     }
     void Update()
     {
+        TextCoin.text = "Coin: " + Pl.coin;
         HealSlider.value = Pl.Heal;
         O2Slider.value = head.O2;
 
@@ -30,6 +33,8 @@ public class UI : MonoBehaviour
         {
             Time.timeScale = 0;
             LosePanel.SetActive(true);
+            GamePanel.SetActive(false);
+            TextCoinOb.SetActive(true);
         }
 
         if (WP.WinP == true)
@@ -37,6 +42,7 @@ public class UI : MonoBehaviour
             Time.timeScale = 0;
             WinPanel.SetActive(true);
             GamePanel.SetActive(false);
+            TextCoinOb.SetActive(true);
         }
 
         if (Pl.AttackText == true)
@@ -62,12 +68,14 @@ public class UI : MonoBehaviour
         Time.timeScale = 0;
         GamePanel.SetActive(false);
         PausePanel.SetActive(true);
+        TextCoinOb.SetActive(true);
     }
     public void Continue()
     {
         Time.timeScale = 1;
         GamePanel.SetActive(true);
         PausePanel.SetActive(false);
+        TextCoinOb.SetActive(false);
     }
     public void ResetLVL()
     {
@@ -76,10 +84,7 @@ public class UI : MonoBehaviour
         PausePanel.SetActive(false);
         WinPanel.SetActive(false);
         LosePanel.SetActive(false);
+        TextCoinOb.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    public void MainMenu()
-    {
-
     }
 }

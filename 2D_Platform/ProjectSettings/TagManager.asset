@@ -50,6 +50,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: fon1
+    uniqueID: 1259586737
+    locked: 0
+  - name: fon
+    uniqueID: 2658501037
+    locked: 0
   - name: back
     uniqueID: 2053234367
     locked: 0
